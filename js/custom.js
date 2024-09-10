@@ -1,8 +1,8 @@
 const msgerForm = get(".msger-inputarea");
 const msgerInput = get(".msger-input");
 const msgerChat = get(".msger-chat");
-const BOT_IMG = "bot.png";
-const PERSON_IMG = "user.png";
+const BOT_IMG = "img/bot.png";
+const PERSON_IMG = "img/user.png";
 const BOT_NAME = "Betty the Bot";
 const PERSON_NAME = "KodingKat";
 const prompts = [

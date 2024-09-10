@@ -149,3 +149,41 @@ body {
 .msger-chat {
   background-color: #fcfcfe;
 }
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .msger-chat {
+    font-size: 0.8em;
+  }
+
+  .msg {
+    padding: 10px;
+  }
+
+  .msg-info-name {
+    font-size: 0.9em;
+  }
+
+  .msg-text {
+    font-size: 0.9em;
+  }
+}
+
+/* Tablets and up */
+@media (min-width: 601px) {
+  .msger-chat {
+    font-size: 1em;
+  }
+
+  .msg {
+    padding: 15px;
+  }
+
+  .msg-info-name {
+    font-size: 1em;
+  }
+
+  .msg-text {
+    font-size: 1em;
+  }
+}
